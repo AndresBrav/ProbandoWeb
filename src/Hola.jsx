@@ -14,6 +14,7 @@ const Hola = () => {
                 // alt="Descripción de la imagen"
                 style={{ width: '300px', height: 'auto' }} // Opcional: estilo para el tamaño
             />
+            <h1>Esto es una nueva actualizacion que ya funciona</h1>
         </>
 
     )

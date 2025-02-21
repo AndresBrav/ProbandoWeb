@@ -5,7 +5,7 @@ import App from './App.jsx'
 import { BrowserRouter, Link, Route, Routes } from 'react-router'
 import Hola from './Hola.jsx'
 createRoot(document.getElementById('root')).render(
-  <BrowserRouter>
+  <BrowserRouter basename="/ProbandoWeb">
     <StrictMode>
       <Routes>
         <Route path='/' element={<App />}></Route>
