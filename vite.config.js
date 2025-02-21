@@ -10,5 +10,9 @@ export default defineConfig({
   },
   server: {
     historyApiFallback: true,  // 👈 Asegura que las rutas funcionen en desarrollo
+    headers: {
+      // Elimina el encabezado 'interest-cohort'
+      'Permissions-Policy': 'accelerometer=(), geolocation=(), microphone=(), camera=()'
+    }
   }
 })
