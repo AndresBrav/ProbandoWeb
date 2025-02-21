@@ -12,6 +12,7 @@ function App() {
       <nav>
         <ul>
           <li><Link to="/hola" >Hola</Link></li>
+          <li><Link to="/acerca" >Acerca</Link></li>
         </ul>
       </nav>
       <div>
